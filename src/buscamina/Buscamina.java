@@ -25,20 +25,7 @@ public class Buscamina {
         tablero.numerosTablero();
         System.out.println("");
         tablero.mostrarTablero();
-        
-//        int [][] prueba = {{1,2,3},{4,5,6}};
-//        for(int i = 0; i < prueba.length; i++){
-//            for(int j = 0; j < prueba[0].length; j++){
-//                
-//                System.out.print(prueba[i][j]+" ");
-//                if (j == 2){
-//                    System.out.println("");
-//                }
-//                
-//            }
-//        }
-//        System.out.println(prueba[1][0]);
-//        System.out.println(prueba[0].length);
+        Vista ventana = new Vista(8,8);
         
     }
     
